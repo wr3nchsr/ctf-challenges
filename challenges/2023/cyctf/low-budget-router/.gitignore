@@ -1,0 +1,6 @@
+*.o
+*.jffs2
+*.bin
+*.so
+*.out
+build/*/fs

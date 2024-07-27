@@ -1,0 +1,14 @@
+$ SNANDer -d -г fw_dump.bin
+
+SNANDer - Serial Nor/nAND/Eeprom programmeR v.1.7.8b2 by McMCC <mcmcc@mail.ru>
+
+Found programmer device: WinChipHead (WCH) - CH341A
+Device revision is 3.0.4
+spi_nand_probe: mfr_id = 0xef, dev_id = 0xaa, dev_id_2 = 0x21
+Get Status Register 1: 0x81
+Get Status Register 2: 0×18
+Disable Flash ECC.
+Detected SPI NAND Flash: WINBOND W25N01G, Flash Size: 128MB, OOB Size: 64B
+READ:
+Read addr = 0x0000000000000000, len = 0x0000000008000000
+Read 100% [138412032] of [138412032] bytes
