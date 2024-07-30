@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ctf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1337:1337/tcp"
+    cap_add:
+      - NET_ADMIN
+      # - NET_RAW

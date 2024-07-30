@@ -1,0 +1,9 @@
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+
+-A OUTPUT -p tcp -m tcp --sport 1337 -j ACCEPT
+-A OUTPUT -j DROP
+
+COMMIT
